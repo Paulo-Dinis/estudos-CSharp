@@ -1,0 +1,27 @@
+﻿@using Ecommerce.Dominio
+@model Ecommerce.Dominio.Produto
+
+@{
+    ViewBag.Title = "ComprarProduto";
+}
+
+<h2>Comprar Produto</h2>
+
+<div>
+    <hr />
+    <h4>Produto</h4>
+    <div style="display: flex; justify-content: flex-start; ">
+        <img src="../../upload-image/produtos/@Model.Id_imagem" style="width: 150px; height: 130px">
+        <dl class="dl-horizontal">
+
+            <h4 style="margin-left: 30px">@Html.DisplayFor(model => model.Nome)</h4>
+            <h4 style="margin-left: 30px">@Html.DisplayFor(model => model.Preco)</h4>
+
+        </dl>
+    </div>
+</div>
+<br/>
+<p>
+    @Html.ActionLink("Adicionar ao carrinho", "Carrinho", new { id=Model.Id}) |
+    @Html.ActionLink("Finalizar Compra", "Carrinho", new { id = Model.Id })
+</p>

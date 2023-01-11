@@ -1,0 +1,25 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Ofertas</h2>
+
+<div class="container" style="display: flex; justify-content: space-between">
+
+
+    @foreach (var produto in Model)
+    {
+        <br />
+        <div class="row">
+            <div class="col">
+                <img src="../../upload-image/produtos/@produto.Id_imagem" style="width: 150px; height: 130px">
+                <div>
+                    <h2>@produto.Nome</h2>
+                    <p>@produto.Preco</p>
+                    @Html.ActionLink("Comprar", "ComprarProduto",
+                   new { id = produto.Id }, new { @class = "btn btn-primary" })
+                </div>
+            </div>
+        </div>
+    }
+</div>

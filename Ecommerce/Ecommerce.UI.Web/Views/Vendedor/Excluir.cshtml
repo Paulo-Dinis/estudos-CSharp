@@ -1,0 +1,41 @@
+﻿@using Ecommerce.Dominio
+@model Ecommerce.Dominio.Produto
+
+@{
+    ViewBag.Title = "Excluir";
+}
+
+<h2>Excluir</h2>
+
+<h3>Tem certeza que quer excluir esse produto ?</h3>
+<div>
+    <h4>Produto</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Nome)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Nome)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Preco)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Preco)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            @Html.ActionLink("Excluir", "ExcluirConfirma", new { id = Model.Id }) |
+            @Html.ActionLink("Voltar", "Vendedor")
+        </div>
+    }
+</div>

@@ -1,0 +1,39 @@
+﻿@model IEnumerable<Ecommerce.Dominio.Produto>
+
+    @{
+        ViewBag.Title = "retornarCarrinho";
+    }
+
+    <h2>retornarCarrinho</h2>
+
+    <table class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Nome)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Preco)
+            </th>
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Nome)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Preco)
+                </td>
+                <td>
+                    @Html.ActionLink("Excluir", "ExcluirDoCarrinho", new { id = item.Id_produtoCarrinho }, new { @class = "btn btn-primary" })
+                </td>
+            </tr>
+        }
+
+    </table>
+    <p>
+        @Html.ActionLink("Continuar Comprando", "Ofertas", "Ofertas", new { @class = "btn btn-primary" }) |
+        @Html.ActionLink("Finalizar Compra", "FinalizarCompra", "Ofertas", new { @class = "btn btn-primary" })
+    </p>

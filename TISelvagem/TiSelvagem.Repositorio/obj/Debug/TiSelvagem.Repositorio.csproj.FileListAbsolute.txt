@@ -1,0 +1,5 @@
+C:\Users\Paulo\documents\visual studio 2015\Projects\TISelvagem\TiSelvagem.Repositorio\bin\Debug\TiSelvagem.Repositorio.dll
+C:\Users\Paulo\documents\visual studio 2015\Projects\TISelvagem\TiSelvagem.Repositorio\bin\Debug\TiSelvagem.Repositorio.pdb
+C:\Users\Paulo\documents\visual studio 2015\Projects\TISelvagem\TiSelvagem.Repositorio\obj\Debug\TiSelvagem.Repositorio.csprojResolveAssemblyReference.cache
+C:\Users\Paulo\documents\visual studio 2015\Projects\TISelvagem\TiSelvagem.Repositorio\obj\Debug\TiSelvagem.Repositorio.dll
+C:\Users\Paulo\documents\visual studio 2015\Projects\TISelvagem\TiSelvagem.Repositorio\obj\Debug\TiSelvagem.Repositorio.pdb

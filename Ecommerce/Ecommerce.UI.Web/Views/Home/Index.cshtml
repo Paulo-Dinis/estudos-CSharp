@@ -1,0 +1,12 @@
+﻿@using Ecommerce.Dominio
+@model IEnumerable<Ecommerce.Dominio.Produto>
+@{
+    ViewBag.Title = "Index";
+}
+
+<div class="jumbotron">
+    <h1>Ecommerce</h1>
+    <p class="lead">Compre barato, Compre Ecommerce</p>
+    <p class="btn btn-primary btn-lg">@Html.ActionLink("Veja as Ofertas", "Ofertas", "Ofertas", null, new { @style = "color:#FFFFFF;" }) &raquo;</p>
+</div>
+

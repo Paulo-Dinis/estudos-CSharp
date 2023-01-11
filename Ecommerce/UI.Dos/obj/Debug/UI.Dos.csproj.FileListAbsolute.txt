@@ -1,0 +1,12 @@
+c:\users\paulo\documents\visual studio 2015\Projects\Ecommerce\UI.Dos\bin\Debug\UI.Dos.exe.config
+c:\users\paulo\documents\visual studio 2015\Projects\Ecommerce\UI.Dos\bin\Debug\UI.Dos.exe
+c:\users\paulo\documents\visual studio 2015\Projects\Ecommerce\UI.Dos\bin\Debug\UI.Dos.pdb
+c:\users\paulo\documents\visual studio 2015\Projects\Ecommerce\UI.Dos\obj\Debug\UI.Dos.csprojResolveAssemblyReference.cache
+c:\users\paulo\documents\visual studio 2015\Projects\Ecommerce\UI.Dos\obj\Debug\UI.Dos.exe
+c:\users\paulo\documents\visual studio 2015\Projects\Ecommerce\UI.Dos\obj\Debug\UI.Dos.pdb
+c:\Users\Paulo\Documents\Visual Studio 2015\Projects\Ecommerce\UI.Dos\bin\Debug\Ecommerce.Aplicacao.dll
+c:\Users\Paulo\Documents\Visual Studio 2015\Projects\Ecommerce\UI.Dos\bin\Debug\Ecommerce.Dominio.dll
+c:\Users\Paulo\Documents\Visual Studio 2015\Projects\Ecommerce\UI.Dos\bin\Debug\ClassLibrary1.dll
+c:\Users\Paulo\Documents\Visual Studio 2015\Projects\Ecommerce\UI.Dos\bin\Debug\Ecommerce.Aplicacao.pdb
+c:\Users\Paulo\Documents\Visual Studio 2015\Projects\Ecommerce\UI.Dos\bin\Debug\Ecommerce.Dominio.pdb
+c:\Users\Paulo\Documents\Visual Studio 2015\Projects\Ecommerce\UI.Dos\bin\Debug\ClassLibrary1.pdb

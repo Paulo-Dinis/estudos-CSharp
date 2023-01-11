@@ -1,0 +1,5 @@
+c:\Users\Paulo\Documents\Visual Studio 2015\Projects\Ecommerce\Ecommerce.Dominio\bin\Debug\Ecommerce.Dominio.dll
+c:\Users\Paulo\Documents\Visual Studio 2015\Projects\Ecommerce\Ecommerce.Dominio\bin\Debug\Ecommerce.Dominio.pdb
+c:\Users\Paulo\Documents\Visual Studio 2015\Projects\Ecommerce\Ecommerce.Dominio\obj\Debug\Ecommerce.Dominio.csprojResolveAssemblyReference.cache
+c:\Users\Paulo\Documents\Visual Studio 2015\Projects\Ecommerce\Ecommerce.Dominio\obj\Debug\Ecommerce.Dominio.dll
+c:\Users\Paulo\Documents\Visual Studio 2015\Projects\Ecommerce\Ecommerce.Dominio\obj\Debug\Ecommerce.Dominio.pdb

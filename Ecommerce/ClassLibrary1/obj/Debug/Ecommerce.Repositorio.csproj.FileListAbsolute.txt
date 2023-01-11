@@ -1,0 +1,5 @@
+c:\Users\Paulo\Documents\Visual Studio 2015\Projects\Ecommerce\ClassLibrary1\bin\Debug\ClassLibrary1.dll
+c:\Users\Paulo\Documents\Visual Studio 2015\Projects\Ecommerce\ClassLibrary1\bin\Debug\ClassLibrary1.pdb
+c:\Users\Paulo\Documents\Visual Studio 2015\Projects\Ecommerce\ClassLibrary1\obj\Debug\Ecommerce.Repositorio.csprojResolveAssemblyReference.cache
+c:\Users\Paulo\Documents\Visual Studio 2015\Projects\Ecommerce\ClassLibrary1\obj\Debug\ClassLibrary1.dll
+c:\Users\Paulo\Documents\Visual Studio 2015\Projects\Ecommerce\ClassLibrary1\obj\Debug\ClassLibrary1.pdb

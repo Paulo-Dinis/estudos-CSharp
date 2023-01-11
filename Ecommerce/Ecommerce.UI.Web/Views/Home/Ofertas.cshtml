@@ -1,0 +1,19 @@
+﻿
+@{
+    ViewBag.Title = "Ofertas";
+}
+
+<h2>Ofertas</h2>
+
+<div class="row">
+
+    @foreach (var produto in Model)
+    {
+        <div class="col-md-4">
+            <h2>@produto.Nome</h2>
+            <p>@produto.Preco</p>
+            <p><a class="btn btn-default" href="#">Compre já</a></p>
+        </div>
+    }
+</div>
+
